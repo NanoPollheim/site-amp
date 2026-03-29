@@ -427,6 +427,22 @@ body {
     right: 30px;
 
     font-size: 40px;
+    
+/* RESPONSIVO PARA CELULAR */
+@media (max-width: 768px) {
+
+    .menu {
+        flex-direction: column; /* coloca um embaixo do outro */
+        align-items: center; /* centraliza */
+        gap: 20px; /* espaço entre eles */
+    }
+
+    .botao {
+        width: 90%; /* ocupa quase toda a tela */
+        max-width: 350px; /* não fica gigante demais */
+    }
+
+}
     color: white;
     cursor: pointer;
 }
